@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [PraveenSuite]">
+  <test thread-count="5" name="PraveenTest(failed)">
+    <classes>
+      <class name="TestNGPack.TestNGDemo">
+        <methods>
+          <include name="test3"/>
+          <include name="test4"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- TestNGPack.TestNGDemo -->
+      <class name="TestNGPack.TestNGTitleVerificationSA">
+        <methods>
+          <include name="startBrowser"/>
+          <include name="assertEquals"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- TestNGPack.TestNGTitleVerificationSA -->
+    </classes>
+  </test> <!-- PraveenTest(failed) -->
+</suite> <!-- Failed suite [PraveenSuite] -->

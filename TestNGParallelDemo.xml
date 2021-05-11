@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test thread-count="12" name="India" parallel="tests">
+    <parameter name="Param" value="India Parameters"/>
+    <classes>
+      <class name="TestNGPack.TestNGParallelDemo"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="12" name="America" parallel="tests">
+    <parameter name="Param" value="America Parameters"/>
+    <classes>
+      <class name="TestNGPack.TestNGParallelDemo"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->
